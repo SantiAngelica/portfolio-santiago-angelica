@@ -1,9 +1,11 @@
+import Slider from "../Slider/Slider"
+
 function ProjectCard({ project }) {
 
     return (
 
         <div className="project-card">
-
+            <Slider urls={project.imgs}></Slider>
             <h3>{project.title}</h3>
 
             <p className="description">{project.description}</p>

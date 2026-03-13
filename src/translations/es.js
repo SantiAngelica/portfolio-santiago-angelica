@@ -34,6 +34,7 @@ const es = {
             tech: [".NET", "Entity Framework", "SQL Server", "JWT", "Clean Architecture", "DDD", "React"],
             github: "https://github.com/SantiAngelica/Gestionador-de-Productos---RGD",
             origin: "freelance",
+             imgs: ["/data/stockmanager-1.png", "/data/stockmanager-2.png", "/data/stockmanager-3.png"]
         },
         {
             title: "Football Finder",
@@ -41,6 +42,7 @@ const es = {
             tech: [".NET", "Entity Framework", "SQL Server", "JWT", "Clean Architecture", "DDD", "SOLID"],
             github: "https://github.com/SantiAngelica/Trabajo_Practico_Integrador",
             origin: "academic",
+            imgs: ["/data/footbalfinder-1.png", "/data/footbalfinder-2.png", "/data/footbalfinder-3.png"]
         },
 
         {
@@ -49,6 +51,7 @@ const es = {
             tech: ["NodeJs", "MVC", "MongoDB", "Mongoose", "JWT", "Handlebars"],
             github: "https://github.com/SantiAngelica/Funes-Snickers",
             origin: "academic",
+            imgs: ["/data/funessnickers-1.png", "/data/funessnickers-2.png", "/data/funessnickers-3.png"]
         }
 
     ],

@@ -1,7 +1,6 @@
 import { LanguageContext } from "../../context/LanguajeContext"
 import { useContext } from "react"
-import cv from "../../data/cv.pdf"
-import cv_english from "../../data/cv_english.pdf"
+
 
 function Hero() {
     const { t } = useContext(LanguageContext)
@@ -29,10 +28,10 @@ function Hero() {
                     {t.hero.projectsBtn}
                 </a>
 
-                <a href={cv} className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
+                <a href="/public/data/cv.pdf" className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
                         CV en Español
                 </a>
-                <a href={cv_english} className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
+                <a href="/public/data/cv_english.pdf" className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
                         English Resume
                 </a>
                 <a href="https://www.linkedin.com/in/santiangelica/" className="btn-outline" target="blank">
