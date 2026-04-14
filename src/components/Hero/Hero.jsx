@@ -28,10 +28,10 @@ function Hero() {
                     {t.hero.projectsBtn}
                 </a>
 
-                <a href="/public/data/cv.pdf" className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
+                <a href="/data/cv.pdf" className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
                         CV en Español
                 </a>
-                <a href="/public/data/cv_english.pdf" className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
+                <a href="/data/cv_english.pdf" className="btn-outline" download={"CV_Santiago_Angelica_Backend_Developer.pdf"}>
                         English Resume
                 </a>
                 <a href="https://www.linkedin.com/in/santiangelica/" className="btn-outline" target="blank">
